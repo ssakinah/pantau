@@ -25,7 +25,7 @@ api = tweepy.API(auth)
 
 # list of usernames to fetch details
 usernames = [
-    //insert usernames here
+    #insert usernames here
 ]
 
 # Predict sentiment
