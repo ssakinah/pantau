@@ -84,10 +84,6 @@
    npm start
    ```
 
-Sample Login:
-username:MyMaybank   
-password: 123
-
 
 3. Start the FastAPI server:
    ```
