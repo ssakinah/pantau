@@ -62,19 +62,7 @@ def insert_into_database(data):
 
 def job():
     usernames = [
-        'RHBGroup',
-        'MyMaybank',
-        'CIMBMalaysia',
-        'AmBankMY',
-        'MYHongLeong',
-        'myBankRakyat',
-        'AffinMy',
-        'PublicBankMY',
-        'OCBCBank',
-        'myBankIslam',
-        'AllianceBankMY',
-        'MyBankMuamalat',
-        'AgrobankMY'
+        #insert usernames here
     ] 
 
     for name in usernames:
