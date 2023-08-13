@@ -25,19 +25,7 @@ api = tweepy.API(auth)
 
 # list of usernames to fetch details
 usernames = [
-    'RHBGroup',
-    'MyMaybank',
-    'CIMBMalaysia',
-    'AmBankMY',
-    'MYHongLeong',
-    'myBankRakyat',
-    'AffinMy',
-    'PublicBankMY',
-    'OCBCBank',
-    'myBankIslam',
-    'AllianceBankMY',
-    'MyBankMuamalat',
-    'AgrobankMY'
+    //insert usernames here
 ]
 
 # Predict sentiment
