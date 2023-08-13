@@ -3,21 +3,25 @@ import db from "../config/Database.js";
 
 const {DataTypes} = Sequelize;
 
-const Mentioned = db.define('mentioned',{
+const Replies = db.define('replies',{
     bank: DataTypes.STRING,
-    usernameID: DataTypes.STRING,
+    name: DataTypes.STRING,
     username: DataTypes.STRING,
-    tweets: DataTypes.STRING,
-    tweetsID: DataTypes.STRING,
+    usernameID: DataTypes.STRING,
+    reply: DataTypes.STRING,
+    replyID: DataTypes.STRING,
     dateTime: DataTypes.STRING,
     rt: DataTypes.INTEGER,
     likes: DataTypes.INTEGER,	
-    sentiment: DataTypes.STRING
+    sentiment: DataTypes.STRING,	
+    replyURL: DataTypes.STRING,
+    tweetID: DataTypes.STRING,
+    tweetURL: DataTypes.STRING
 },{
     freezeTableName:true
 });
 
-export default Mentioned;
+export default Replies;
 
 (async()=>{
     await db.sync();
